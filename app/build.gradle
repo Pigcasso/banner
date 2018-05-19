@@ -26,6 +26,6 @@ dependencies {
     implementation "com.github.bumptech.glide:glide:$rootProject.ext.glideVersion"
     implementation "com.facebook.fresco:fresco:$rootProject.ext.frescoVersion"
     implementation 'com.zxy.android:recovery:0.0.8'
-    implementation project(':banner')
+    implementation project(':library')
 //    compile 'com.youth.banner:banner:+'
 }
