@@ -28,4 +28,5 @@ dependencies {
     implementation 'com.zxy.android:recovery:0.0.8'
     implementation project(':library')
 //    compile 'com.youth.banner:banner:+'
+    implementation 'com.github.Pigcasso:banner:1.0.3'
 }

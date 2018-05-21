@@ -5,6 +5,7 @@ import android.content.Context;
 import android.util.DisplayMetrics;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
+import com.test.banner.data.Item;
 import com.zxy.recovery.core.Recovery;
 
 import java.util.ArrayList;
@@ -35,6 +36,8 @@ public class App extends Application {
         images = new ArrayList(list);
         List list1 = Arrays.asList(tips);
         titles= new ArrayList(list1);
+
+        Item.initItems(this);
     }
     public void getScreen(Context aty) {
         DisplayMetrics dm = aty.getResources().getDisplayMetrics();

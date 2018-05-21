@@ -17,6 +17,7 @@ import com.test.banner.demo.BannerAnimationActivity;
 import com.test.banner.demo.BannerLocalActivity;
 import com.test.banner.demo.BannerStyleActivity;
 import com.test.banner.demo.CustomBannerActivity;
+import com.test.banner.demo.CustomItemViewActivity;
 import com.test.banner.demo.CustomViewPagerActivity;
 import com.test.banner.demo.IndicatorPositionActivity;
 import com.test.banner.loader.GlideImageLoader;
@@ -118,6 +119,9 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                 break;
             case 6:
                 startActivity(new Intent(this, CustomViewPagerActivity.class));
+                break;
+            case 7:
+                startActivity(new Intent(this, CustomItemViewActivity.class));
                 break;
         }
     }
