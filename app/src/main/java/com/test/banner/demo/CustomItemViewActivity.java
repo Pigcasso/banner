@@ -29,4 +29,18 @@ public class CustomItemViewActivity extends AppCompatActivity {
                 .setImageLoader(new CustomItemViewImageLoader())
                 .start();
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        //开始轮播
+        banner.startAutoPlay();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        //结束轮播
+        banner.stopAutoPlay();
+    }
 }
